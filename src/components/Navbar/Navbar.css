@@ -138,7 +138,7 @@
       .GameLinks {
         display: flex;
         justify-content: center;
-        max-width: 420px;
+        max-width: 460px;
         gap: 15px;
 
         .GameLink {
@@ -203,6 +203,17 @@
           width: 100%;
         }
 
+        .Home.Active {
+          img {
+            content: url("../../assets/images/homeActive.svg");
+          }
+        }
+
+        .Home.Inactive {
+          img {
+            content: url("../../assets/images/homeInactive.svg");
+          }
+        }
         .Coinflip.Active {
           img {
             content: url("../../assets/images/coinflipActive.svg");

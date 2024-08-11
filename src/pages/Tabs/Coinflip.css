@@ -1,4 +1,4 @@
-.landing-page {
+.Home {
   height: 100%;
   width: 100%;
   display: grid;
@@ -11,19 +11,26 @@
     grid-row: 1 / 2;
     grid-column: 1 / 4;
   }
-
-  .home-content {
-    grid-row: 2 / 4;
-    grid-column: 2 / 4;
+  .Chat {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    overflow: hidden;
+  }
+  .Coinflip {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
     overflow: hidden;
   }
 }
 
 @media screen and (max-width: 1400px) {
+  .Chat {
+    display: none !important;
+  }
   .Sidebar {
     display: none;
   }
-  .home-content {
+  .Coinflip {
     grid-row: 2 / 3;
     grid-column: 1 / 4 !important;
     overflow: hidden;
@@ -63,30 +70,7 @@
       }
     }
   }
-  .landing-page {
+  .Home {
     grid-template: 90px 1fr / 1fr;
-  }
-}
-
-.home-content {
-  background-image: url("../../../assets/images/homeBackground.svg");
-  background-position: 60%;
-  background-size: cover;
-  background-color: #0d0b1b;
-  border-top: #322e58 2px solid;
-  padding: 0px 40px 0px 40px;
-  display: block;
-  height: 100%;
-  flex-direction: column;
-  border-left: #322e58 2px solid;
-  overflow: hidden;
-  min-height: 100vh;
-  img {
-    pointer-events: none;
-    user-select: none;
-  }
-  h1 {
-    font-size: 50px;
-    color: white;
   }
 }

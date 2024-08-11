@@ -101,6 +101,20 @@
         }
       }
     }
+    .Home.Active {
+      img {
+        width: 24px;
+        height: auto;
+        content: url("../../assets/images/homeActive.svg");
+      }
+    }
+    .Home.Inactive {
+      img {
+        width: 24px;
+        height: auto;
+        content: url("../../assets/images/homeInactive.svg");
+      }
+    }
     .Coinflip.Active {
       img {
         width: 24px;

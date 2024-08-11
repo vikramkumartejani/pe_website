@@ -152,10 +152,19 @@ export default function Navbar() {
             />
             <div className="GameLinks">
               <Link
-                className={`GameLink Coinflip ${
+                className={`GameLink Home ${
                   location.pathname == "/" ? "Active" : "Inactive"
                 }`}
                 to={"/"}
+              >
+                <img src="" alt="" />
+                <p>Home</p>
+              </Link>
+              <Link
+                className={`GameLink Coinflip ${
+                  location.pathname == "/coinflip" ? "Active" : "Inactive"
+                }`}
+                to={"/coinflip"}
               >
                 <img src="" alt="" />
                 <p>Coinflip</p>

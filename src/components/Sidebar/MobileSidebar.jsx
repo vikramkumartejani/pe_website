@@ -25,10 +25,25 @@ export default function MobileSidebar({ closeMenu }) {
       >
         <div className="Games">
           <Link
-            className={`Game Coinflip ${
+            className={`Game Home ${
               location.pathname == "/" ? "Active" : "Inactive"
             }`}
             to={"/"}
+          >
+            <div className="TopLayer">
+              <img src="" alt="Home" />
+              <p>Home</p>
+            </div>
+            <div className="ShadowLayer">
+              <img src="" alt="Home" />
+              <p>Home</p>
+            </div>
+          </Link>
+          <Link
+            className={`Game Coinflip ${
+              location.pathname == "/coinflip" ? "Active" : "Inactive"
+            }`}
+            to={"/coinflip"}
           >
             <div className="TopLayer">
               <img src="" alt="Coinflip Game" />

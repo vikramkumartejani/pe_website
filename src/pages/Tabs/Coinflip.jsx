@@ -1,13 +1,15 @@
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/Navbar";
+import Chat from "../../components/Chat/Chat";
+import Coinflip from "../../components/Coinflip/CoinflipPage/Coinflip";
 import MobileSidebar from "../../components/Sidebar/MobileSidebar";
 import MobileChat from "../../components/Chat/MobileChat";
+import "./Coinflip.css";
 import { menu, mail, chat } from "../../assets/imageExport";
 import { useCallback, useState } from "react";
 import { AnimatePresence } from "framer-motion";
-import "./Home.css";
 
-export default function Home() {
+export default function CoinFlip() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
   const [tabOpen, setTabOpen] = useState(null);
@@ -48,12 +50,11 @@ export default function Home() {
 
   return (
     <>
-      <div className="landing-page">
+      <div className="Home">
         <Sidebar />
         <Navbar />
-        <section className="home-content">
-          <h1>Home</h1>
-        </section>
+        <Chat />
+        <Coinflip />
       </div>
       <div className="MobileNav" style={{ display: "none" }}>
         <div className="Tab" onClick={handleMenuOpen}>
