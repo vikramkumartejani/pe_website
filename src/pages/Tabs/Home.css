@@ -161,6 +161,16 @@
   .grow-dice-container{
     padding: 15px 20px !important;
   }
+
+
+  .boxes-crah {
+    padding: 12px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
   
   .grow-dice-container img{
     width: 300px;
