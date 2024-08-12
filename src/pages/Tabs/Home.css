@@ -79,7 +79,7 @@
   height: auto;
   flex-direction: column;
   border-left: #322e58 2px solid;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   img {
     pointer-events: none;
     user-select: none;
