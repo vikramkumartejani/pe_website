@@ -7,6 +7,15 @@ import { useCallback, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Logo from "../../assets/images/logo-88b07799.webp";
 import Crash from "../../assets/images/crash-da900e5e.webp";
+import Roulette from "../../assets/images/roulette.webp";
+import Slots from "../../assets/images/slots.webp";
+import Blackjack from "../../assets/images/blackjack.webp";
+import Reme from "../../assets/images/reme.webp";
+import Limbo from "../../assets/images/limbo.webp";
+import Coinflip from "../../assets/images/coinflip.webp";
+import Towers from "../../assets/images/towers.webp";
+import Mines from "../../assets/images/mines.webp";
+import Unboxing from "../../assets/images/unboxing.webp";
 import "./Home.css";
 
 export default function Home() {
@@ -66,31 +75,31 @@ export default function Home() {
               <img src={Crash} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Roulette} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Slots} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Blackjack} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Reme} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Limbo} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Coinflip} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Towers} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Mines} alt="crash" />
             </button>
             <button>
-              <img src={Crash} alt="crash" />
+              <img src={Unboxing} alt="crash" />
             </button>
           </div>
         </section>
