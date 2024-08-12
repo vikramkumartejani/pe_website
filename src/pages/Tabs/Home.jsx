@@ -5,6 +5,8 @@ import MobileChat from "../../components/Chat/MobileChat";
 import { menu, mail, chat } from "../../assets/imageExport";
 import { useCallback, useState } from "react";
 import { AnimatePresence } from "framer-motion";
+import Logo from "../../assets/images/logo-88b07799.webp";
+import Crash from "../../assets/images/crash-da900e5e.webp";
 import "./Home.css";
 
 export default function Home() {
@@ -52,7 +54,45 @@ export default function Home() {
         <Sidebar />
         <Navbar />
         <section className="home-content">
-          <h1>Home</h1>
+          
+          <div className="grow-dice-container">
+            <img src={Logo} alt="Logo" />
+            <p>The first Growtopia web-based gaming platform.</p>
+            <button>Register Now</button>
+          </div>
+
+          <div className="boxes-crah">
+            <button className="transition-transform ">
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+            <button>
+              <img src={Crash} alt="crash" />
+            </button>
+          </div>
         </section>
       </div>
       <div className="MobileNav" style={{ display: "none" }}>
